@@ -1,0 +1,140 @@
+.header{
+    display: flex;
+    height: 60px;
+  
+    align-content: center;
+    justify-content: space-between;
+   
+    
+}
+.header2{
+    justify-content: space-evenly;
+
+   
+    color: black;
+    display: flex;
+    align-content: center;
+    padding-right: 15px;
+    margin-right: 10%;
+    
+    
+}
+.header2p{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
+.header1{
+justify-content: flex-start;
+align-content: center;
+display: flex;
+margin-left: 10%;
+}
+.head1text{
+align-content: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: 40px;
+margin:auto;
+padding-left: 10%;
+}
+.header1icon{ 
+    height: 30px;
+    width: 30px;
+   margin-top: 7px;
+
+}
+.header2button{
+   background-color: black;
+    color:white;
+    border-radius: 20px;
+    border: none;
+    align-content: center;
+    margin:auto;
+    padding: 5px 10px;
+    
+}
+.content{
+    display: flex;
+    
+    justify-content: space-between;
+    height: 900px;
+}
+.content1head{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 10%;
+
+}
+.title1{
+    color: white;
+    font-size: 60px;
+    margin-top: 20px;
+    
+}
+.title2{
+    font-size: 40px;
+     align-content: center;
+     display: flex;
+     font-family: 'Times New Roman', Times, serif;
+     margin-top: -60px;
+}
+.title2_1{
+    color:white;
+}
+.title2_2{
+    color: black;
+}
+.title3{
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+    padding-right: 20%;
+}
+.Contact{
+    
+    margin-left: 10%;
+    
+}
+
+.contacticon{
+  
+  font-size: 40px;
+  padding-right: 20px;
+    
+}
+.content2{
+    display: flex;
+   
+    justify-content: space-between;
+    align-content: center;
+    margin-right: 10%;
+
+}
+.content2icon{
+    font-size: 60px;
+    margin-top: 410px;
+    
+    
+}
+.button3{
+    font-size: 40px;
+    margin-top: 400px;
+    border:none;   
+}
+.content2img{
+    align-content: center;
+    height: 800px;
+    width: 700px;
+    margin-top:50px;
+    
+}
+#body1{
+
+    background-image: linear-gradient(to right,orange, white);
+    background-repeat: no-repeat;
+}
+
