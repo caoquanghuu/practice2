@@ -9,19 +9,15 @@
 }
 .header2{
     justify-content: space-evenly;
-
-   
     color: black;
     display: flex;
-    align-content: center;
-    padding-right: 15px;
+    align-content: center;  
     margin-right: 10%;
     
     
 }
 .header2p{
     font-size: 20px;
-    padding-left: 10px;
     padding-right: 20px;
 
 }
@@ -56,9 +52,7 @@ padding-left: 10%;
 }
 .content{
     display: flex;
-    
-    justify-content: space-between;
-    height: 900px;
+    justify-content: space-between;   
 }
 .content1head{
     
@@ -72,7 +66,6 @@ padding-left: 10%;
 .title1{
     color: white;
     font-size: 60px;
-    margin-top: 20px;
     
 }
 .title2{
@@ -80,7 +73,7 @@ padding-left: 10%;
      align-content: center;
      display: flex;
      font-family: 'Times New Roman', Times, serif;
-     margin-top: -60px;
+     margin-top:-120px;
 }
 .title2_1{
     color:white;
@@ -104,7 +97,11 @@ padding-left: 10%;
   
   font-size: 40px;
   padding-right: 20px;
+  color: black;
     
+}
+.contactlink{
+    background-color: none;
 }
 .content2{
     display: flex;
@@ -121,14 +118,19 @@ padding-left: 10%;
     
 }
 .button3{
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 400px;
-    border:none;   
+    border:none;
+    background-color: inherit;
+   
+}
+.buttonimg{
+    width: 60px;
+    height: 60px;
 }
 .content2img{
-    align-content: center;
     height: 800px;
-    width: 700px;
+    width: auto;
     margin-top:50px;
     
 }

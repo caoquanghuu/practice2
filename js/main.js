@@ -1,6 +1,6 @@
 
 var slider_img = document.querySelector('.content2img');
-var images = ['a.jpg', 'b.jpg', 'c.jpg', 'd.jpg'];
+var images = ['a.png', 'b.png', 'c.png', 'd.png'];
 var color1 = ["linear-gradient(to right,orange, white)","linear-gradient(to right,gray, white)","linear-gradient(to right,green, white)","linear-gradient(to right,pink, white)"];
 var i = 0;
 
