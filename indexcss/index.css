@@ -200,6 +200,6 @@
 .next-button:hover{color:black}
 #body-one {
     background: linear-gradient(106deg, #F4A764 -2.93%, #FFDEC2 72.14%);
-    min-height: 100vh;
-    max-width: 1280px;
+    height: 1117px;
+    width: 1728px;
 }
