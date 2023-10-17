@@ -185,7 +185,7 @@
     background-color: inherit;
     border: none;
 }   
-    .next-img{
+.next-img{
     width: 75px;
     height: 75px;
     flex-shrink: 0;   
@@ -197,6 +197,7 @@
     background-color: inherit;
     border: none;
 }
+.next-button:hover{color:black}
 #body-one {
     background: linear-gradient(106deg, #F4A764 -2.93%, #FFDEC2 72.14%);
     min-height: 100vh;
