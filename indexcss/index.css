@@ -183,6 +183,7 @@
     cursor: pointer;
     height: 75px;
     margin-top: 280px;
+    border-radius: 50px;
 }
 
 .next-img {
@@ -206,4 +207,23 @@
     height: 1117px;
     width: 1728px;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.big-content{
+   display: block;
+   
+   justify-content: space-between;
+}
+.left-margin{
+    background-color: white;
+    height: 1117px;
+    width:auto;
+}
+.right-margin{
+    background-color: white;
+    height: 1117px;
+    width: auto;
 }

@@ -22,4 +22,5 @@ function setImg(){
     document.getElementById('body-one').style.backgroundImage = color[i];
 	document.getElementById('content-about').innerHTML = text[i];
 	document.getElementById('content-price').innerHTML = pricechange[i];
+	
 }
