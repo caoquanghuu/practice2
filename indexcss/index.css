@@ -3,9 +3,10 @@
     justify-content: space-between;
     width: 1418px;
     height: 64px;
-    margin-top: 54px;
+    padding-top: 54px;
     margin-left: 155px;
     margin-right: 155px;
+    margin-top: 0px;
 }
 
 .logo {
@@ -90,8 +91,6 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-shrink: 0;
-    width: 613px;
-    height: 641px;
 }
 
 .content-head-title {
@@ -198,32 +197,20 @@
     width: 240px;
     height: 60px;
     margin-left: 155px;
-    margin-top: 100px;
+    margin-top: 40px;
+    
 }
-
 
 #body-one {
-    background: linear-gradient(106deg, #F4A764 -2.93%, #FFDEC2 72.14%);
     height: 1117px;
-    width: 1728px;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-between;
-   
+    width: 100%;
 }
 
-.big-content{
-   display: block;
-   
-   justify-content: space-between;
-}
-.left-margin{
-    background-color: white;
+#big-content {
+    background: linear-gradient(106deg, #F4A764 -2.93%, #FFDEC2 72.14%);
+    max-width: 1728px;
+    margin: -8px auto;
     height: 1117px;
-    width:auto;
+
 }
-.right-margin{
-    background-color: white;
-    height: 1117px;
-    width: auto;
-}
+
