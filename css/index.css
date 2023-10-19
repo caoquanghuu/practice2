@@ -1,3 +1,8 @@
+body {
+    width: 1002px;
+    height: 3046px;
+}
+
 .header {
     display: flex;
     padding: 11.137px 100.234px;
@@ -6,6 +11,8 @@
     gap: 43.852px;
     background: var(--neutral-white, #FFF);
     box-shadow: 0px 4px 8px 0px rgba(171, 190, 209, 0.40);
+    width: 802px;
+    height: 36.5px;
 }
 
 .logo {
@@ -35,49 +42,57 @@
 }
 
 .menu {
-    align-items: center;
-    gap: 5.569px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16.706px;
+    height: 17px;
+}
+
+.menu-item {
     color: var(--neutral-d-grey, #4D4D4D);
     text-align: center;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    width: 70.999px;
+    display: flex;
+    align-items: center;
+    gap: 5.569px;
+    justify-content: center;
+}
+
+
+.button {
+    display: flex;
+    padding: 6.245px 21.774px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.569px;
+    border-radius: 2.784px;
+    background: var(--brand-primary, #4CAF4F);
+    border: hidden;
+}
+
+.button-text {
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
 }
-
-.home {
-    display: flex;
-    align-items: flex-end;
-    gap: 5.569px;
-}
-
-.button {
-    display: flex;
-    padding: 9.745px 22.274px;
-    justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
-    border-radius: 2.784px;
-    background: var(--brand-primary, #4CAF4F);
-    color: var(--neutral-white, #FFF);
-    border: 4px hidden;
-
-}
-
-.button-header {
-    gap: 5.569px;
-
-}
-
 .right-arow {
-    display: flex;
-    width: 11.137px;
-    height: 11.137px;
-    padding: 3.48px 1.74px 3.48px 1.434px;
-    justify-content: center;
-    align-items: center;
+    width: 7.963px;
+    height: 4.177px;
+    flex-shrink: 0;
 }
 
 .button-header:hover {
@@ -150,28 +165,28 @@
     width: 272.163px;
     height: 283.3px;
     position: relative;
-    
+
 }
 
 .img-pc {
     width: 135.113px;
     height: 186.94px;
     flex-shrink: 0;
-    position: absolute ;
-    top: 36px; 
+    position: absolute;
+    top: 36px;
     right: 136px;
-    bottom:  60.3px;
-    left:  0.56px;
+    bottom: 60.3px;
+    left: 0.56px;
 }
 
 .img-windows {
     width: 152.839px;
     height: 199.432px;
     flex-shrink: 0;
-    position: absolute ;
-    top:0px ;
-    right:106px ;
-    bottom:  83.9px ;
+    position: absolute;
+    top: 0px;
+    right: 106px;
+    bottom: 83.9px;
     left: 13.5px;
 }
 
@@ -179,27 +194,45 @@
     width: 66.49px;
     height: 39.993px;
     flex-shrink: 0;
-    
+    position: absolute;
+    top: 243px;
+    right: 132px;
+    left: 74.2px;
 }
 
 .img-human {
     width: 87.544px;
     height: 179.003px;
     flex-shrink: 0;
+    position: absolute;
+    top: 82.85px;
+    right: 9.32px;
+    bottom: 21.44px;
+    left: 175.3px;
 }
 
 .img-human-shadow {
     width: 76.16px;
     height: 43.96px;
     flex-shrink: 0;
+    position: absolute;
+    top: 229.62px;
+    bottom: 9.72px;
+    left: 196px;
 }
 
 .img-bubbles {
     width: 19.788px;
     height: 25.045px;
     flex-shrink: 0;
+    position: absolute;
+    top: 47.4px;
+    right: 72.75px;
+    bottom: 210.85px;
+    left: 179.96px;
 }
-.img-pc-shadow{
+
+.img-pc-shadow {
     width: 135.69px;
     height: 78.348px;
     flex-shrink: 0;
