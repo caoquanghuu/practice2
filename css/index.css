@@ -1,0 +1,38 @@
+
+.head{
+    display: flex;
+    padding: 11.137px 100.234px;
+    justify-content: space-between;
+    align-content: center;
+    gap: 43.852px;
+    background: var(--neutral-white, #FFF);
+    box-shadow: 0px 4px 8px 0px rgba(171, 190, 209, 0.40);    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5.569;
+    justify-content: space-between;
+}
+.logo-icon{
+    width: 24.362px;
+    height: 16.706px;
+}
+.logo-nexcent{
+    width: 77.605px;
+    height: 14.382px;
+    fill: var(--brand-secondary, #263238);
+}
+.right-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 22.274px;
+    flex: 1 0 0;
+}
+.home{
+    display: flex;
+    align-items:flex-end;
+    gap: 5.569px;
+}
