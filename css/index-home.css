@@ -64,11 +64,10 @@ body {
 }
 
 .home {
-    
+    flex-direction: column;
+    gap: 40px;
     display: flex;
-    align-items: center;
-    gap: 5px;
-    justify-content: center;
+   
 }
 .button-head-box{
     display: flex;
@@ -286,6 +285,7 @@ body {
 .our-client{
     display: flex;
     gap:8px;
+    flex-direction: column;
 }
 .clients-head{
     text-align: center;
@@ -316,6 +316,11 @@ body {
     padding: 9.85px, 0px, 9.15px, 1px;
 
 }
+.community{
+    gap:26px;
+    display: flex;
+    flex-direction: column;
+}
 .community-head{
     display: flex;
     gap:8px;
@@ -338,6 +343,7 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
+    width: 267px;
 }
 .frame-two-part{
     padding: 24px, 32px, 24px, 32px;
@@ -371,4 +377,16 @@ body {
     letter-spacing: 0em;
     text-align: center;
     color: #717171;
+    width: 251px;
+}
+.frame-two-national{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #717171;
+    width: 240px;
+
 }
