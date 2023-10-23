@@ -66,6 +66,250 @@
     border: none;
     color: white;
 }
-.achievenments{
-    
+
+.achievements {
+    height: 288px;
+    padding: 0px 144px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background: #F5F7FA;
+}
+
+.achievements-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 540px;
+    height: 120px;
+}
+
+.achievements-title {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D4d4d;
+    width: 408px;
+}
+
+.achievements-title-two {
+    color: #4CAF4F;
+}
+
+.achievements-description {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #18191f;
+}
+
+.couts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 540px;
+}
+
+.row-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.members {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 255px;
+    height: 60px;
+}
+
+.couts-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.achievements-icon {
+    width: 48px;
+    height: 48px;
+    padding: 8.24px, 0.47px, 8.65px, 0.75px;
+}
+
+.number {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+
+.achievements-name {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.calender {
+    display: flex;
+    height: 433px;
+    align-items: center;
+    padding: 0px 144px 0px 144px;
+    justify-content: space-between;
+}
+
+.calender-image {
+    width: 441px;
+    height: 433px;
+}
+
+.calender-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 661px;
+}
+
+.calender-text {
+    width: 601px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.calender-title {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #4D4D4D;
+}
+
+.calender-description {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #717171;
+}
+
+.calender-button {
+    width: 151px;
+    height: 52px;
+    padding: 14px, 32px, 14px, 32px;
+    border-radius: 4px;
+    gap: 10px;
+    background-color: #4CAF4F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.customer {
+    display: flex;
+    padding: 32px 144px 32px 144px;
+    gap: 78px;
+    align-items: center;
+    background: #F5F7FA;
+
+}
+
+.customer-image {
+    width: 326px;
+    height: 326px;
+    border-radius: 8px;
+}
+
+.customer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 748px;
+}
+
+.customer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.customer-description {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #717171;
+}
+
+.customer-author {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.author-name {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #4CAF4F;
+}
+
+.author-position {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #89939E;
+}
+
+.customer-logo {
+    display: flex;
+    gap: 32px;
+}
+
+.customer-logo-head {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
+
+.customer-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+}
+
+.customer-more {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+}
+
+.customer-more-icon {
+    width: 24px;
+    height: 24px;
+    padding: 8px 5px 8px 4.41px;
 }
