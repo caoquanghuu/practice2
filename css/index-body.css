@@ -348,7 +348,7 @@
     width: 628px;
     display: flex;
     align-items: center;
-    
+
 }
 
 .community-update-content {
@@ -358,7 +358,7 @@
 }
 
 .community-update-content-one {
-    display:grid;
+    display: grid;
     width: 368px;
     height: 366px;
     position: relative;
