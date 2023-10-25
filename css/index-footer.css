@@ -39,9 +39,11 @@
     align-items: center;
     cursor: pointer;
 }
-.footer-button:focus{
+
+.footer-button:focus {
     background-color: #18911c;
 }
+
 .footer-button-text {
     font-family: Inter;
     font-size: 16px;
@@ -157,15 +159,16 @@
 }
 
 .email-input {
-    display:inline-block;
+    display: inline-block;
     width: 255px;
     height: 40px;
 }
-.email-input-box{
+
+.email-input-box {
     background-color: gray;
     width: 255px;
     height: 40px;
-    border-radius: 8px;  
+    border-radius: 8px;
     border: none;
     font-family: Inter;
     font-size: 14px;
@@ -174,7 +177,8 @@
     letter-spacing: 0em;
     color: #D9DBE1;
 }
-#email-input-title{
+
+#email-input-title {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
@@ -183,14 +187,15 @@
     text-align: left;
     color: #D9DBE1;
     position: absolute;
-    top:63px;
+    top: 63px;
     left: 12px;
 }
-.email-send-image{
+
+.email-send-image {
     width: 18px;
     height: 18px;
     position: absolute;
-    top:63px;
+    top: 63px;
     left: 225px;
     cursor: pointer;
 }

@@ -67,9 +67,11 @@
     color: white;
     cursor: pointer;
 }
-.unlock-button:focus{
+
+.unlock-button:focus {
     background-color: #18911c;
 }
+
 .achievements {
     height: 288px;
     padding: 0px 144px;
@@ -221,7 +223,8 @@
     border: none;
     cursor: pointer;
 }
-.calender-button:focus{
+
+.calender-button:focus {
     background-color: #18911c;
 }
 

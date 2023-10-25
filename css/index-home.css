@@ -61,7 +61,7 @@ body {
     height: 40px;
     padding: 10px 20px 10px 20px;
     border-radius: 6px;
-   border: none;
+    border: none;
     cursor: pointer;
     width: 91px;
     height: 40px;
@@ -69,7 +69,8 @@ body {
     background-color: #4CAF4F;
     align-items: center;
 }
-.button-signup:focus{
+
+.button-signup:focus {
     background-color: #18911c;
 }
 
@@ -84,7 +85,8 @@ body {
     height: 40px;
     justify-items: center;
 }
-.button-login:focus{
+
+.button-login:focus {
     background-color: #6fd87d;
 }
 
@@ -166,7 +168,8 @@ body {
     height: 52px;
     cursor: pointer;
 }
-.frame-one-button:focus{
+
+.frame-one-button:focus {
     background-color: #18911c;
 }
 
