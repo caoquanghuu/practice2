@@ -65,6 +65,7 @@
     background: #4CAF4F;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .achievements {
@@ -216,6 +217,7 @@
     text-align: center;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
 }
 
 .customer {
@@ -306,7 +308,6 @@
     text-align: left;
     align-items: center;
     gap: 8px;
-    padding: 8px;
     color: #4CAF4F;
 }
 
