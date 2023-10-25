@@ -36,9 +36,10 @@
     border: none;
     display: flex;
     align-items: center;
-    
+
 }
-.footer-button-text{
+
+.footer-button-text {
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
@@ -47,6 +48,7 @@
     text-align: center;
     color: white;
 }
+
 .footer-button-right-arrow {
     width: 16px;
     height: 16px;
@@ -68,11 +70,13 @@
     display: flex;
     flex-direction: column;
 }
-.footer-logo-icon{
+
+.footer-logo-icon {
     width: 43px;
     height: 29px;
 }
-.footer-logo-nexcent{
+
+.footer-logo-nexcent {
     width: 137px;
     height: 25px;
 }
@@ -81,7 +85,7 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-    
+
     text-align: left;
     font-family: Inter;
     font-size: 14px;
@@ -134,21 +138,56 @@
     text-align: left;
     color: #F5F7FA;
 }
-.col-one-link-group{
+
+.col-one-link-group {
     display: flex;
     flex-direction: column;
-    gap:12px;
+    gap: 12px;
 }
-.col-two{
+
+.col-two {
     display: flex;
     flex-direction: column;
-    gap:24px;
+    gap: 24px;
     width: 255px;
     height: 92px;
+    position: relative;
 }
-.email-input{
-    display: flex;
+
+.email-input {
+    display:inline-block;
     width: 255px;
     height: 40px;
-    border-radius: 8px;
+}
+.email-input-box{
+    background-color: gray;
+    width: 255px;
+    height: 40px;
+    border-radius: 8px;  
+    border: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #D9DBE1;
+}
+#email-input-title{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D9DBE1;
+    position: absolute;
+    top:63px;
+    left: 12px;
+}
+.email-send-image{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top:63px;
+    left: 225px;
 }
