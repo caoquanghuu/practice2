@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 1440px;
+    height: 300px;
 }
 
 .footer-text {
@@ -9,6 +11,7 @@
     flex-direction: column;
     padding: 32px 0px;
     gap: 32px;
+    align-items: center;
 }
 
 .footer-title {
@@ -19,6 +22,8 @@
     letter-spacing: 0em;
     text-align: center;
     color: #263238;
+    width: 887px;
+    height: 152px;
 }
 
 .footer-button {
@@ -27,7 +32,13 @@
     padding: 14px 32px 14px 32px;
     border-radius: 4px;
     gap: 8px;
-    background: #4CAF4F;
+    background-color: #4CAF4F;
+    border: none;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-button-text{
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
@@ -36,7 +47,6 @@
     text-align: center;
     color: white;
 }
-
 .footer-button-right-arrow {
     width: 16px;
     height: 16px;
@@ -45,7 +55,7 @@
 .footer-big {
     width: 1440px;
     height: 328px;
-    padding: 64px 165px 64px 165px;
+
     gap: 125px;
     display: flex;
     background: #263238;
