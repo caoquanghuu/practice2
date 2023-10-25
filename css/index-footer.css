@@ -53,9 +53,9 @@
 }
 
 .footer-big {
-    width: 1440px;
-    height: 328px;
-
+    width: 1110px;
+    height: 200px;
+    padding: 64px 165px 64px 165px;
     gap: 125px;
     display: flex;
     background: #263238;
@@ -63,17 +63,25 @@
 
 .company-info {
     width: 350px;
-    height: 48px;
-    gap: 8px;
+    height: 189px;
+    gap: 40px;
     display: flex;
     flex-direction: column;
+}
+.footer-logo-icon{
+    width: 43px;
+    height: 29px;
+}
+.footer-logo-nexcent{
+    width: 137px;
+    height: 25px;
 }
 
 .copyright {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    align-items: center;
+    
     text-align: left;
     font-family: Inter;
     font-size: 14px;
@@ -125,6 +133,11 @@
     letter-spacing: 0em;
     text-align: left;
     color: #F5F7FA;
+}
+.col-one-link-group{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
 }
 .col-two{
     display: flex;
