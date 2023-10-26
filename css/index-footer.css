@@ -28,13 +28,13 @@
 }
 
 .footer-button {
-    width: 178px;
+    width: auto(178px);
     height: 52px;
     padding: 14px 32px 14px 32px;
     border-radius: 4px;
     gap: 8px;
     background-color: #4CAF4F;
-    border: none;
+    border: hidden;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -42,6 +42,7 @@
 
 .footer-button:focus {
     background-color: #18911c;
+    border: 2px solid #4D4D4D;
 }
 
 .footer-button-text {

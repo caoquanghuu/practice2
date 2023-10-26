@@ -70,6 +70,7 @@
 
 .unlock-button:focus {
     background-color: #18911c;
+    border: 2px solid #4D4D4D;
 }
 
 .achievements {
@@ -226,6 +227,7 @@
 
 .calender-button:focus {
     background-color: #18911c;
+    border: 2px solid #4D4D4D;
 }
 
 .customer {
