@@ -87,6 +87,8 @@ body {
     justify-items: center;
 }
 
+
+
 .button-login:focus {
     background: linear-gradient(0deg, #89939E, #89939E);
     border: 2px solid #4D4D4D;
@@ -316,7 +318,7 @@ body {
     height: 98px;
 }
 
-.clients-logo {
+.clients-logo-section .clients-logo {
     width: 48px;
     height: 48px;
     padding: 9.85px, 0px, 9.15px, 1px;
