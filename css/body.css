@@ -35,7 +35,6 @@
 }
 
 .unlock-title {
-    font-family: Inter;
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
@@ -56,7 +55,6 @@
     padding: 14px, 32px, 14px, 32px;
     border-radius: 4px;
     gap: 10px;
-    font-family: Inter;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -91,7 +89,6 @@
 }
 
 .achievements-title {
-    font-family: Inter;
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
@@ -106,7 +103,6 @@
 }
 
 .achievements-description {
-    font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -148,7 +144,6 @@
 }
 
 .number {
-    font-family: Inter;
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;
@@ -156,7 +151,6 @@
 }
 
 .achievements-name {
-    font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -191,7 +185,6 @@
 }
 
 .calender-title {
-    font-family: Inter;
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
@@ -200,7 +193,6 @@
 }
 
 .calender-description {
-    font-family: Inter;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -215,7 +207,6 @@
     border-radius: 4px;
     gap: 10px;
     background-color: #4CAF4F;
-    font-family: Inter;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -259,7 +250,6 @@
 }
 
 .customer-description {
-    font-family: Inter;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -274,7 +264,6 @@
 }
 
 .author-name {
-    font-family: Inter;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
@@ -283,7 +272,6 @@
 }
 
 .author-position {
-    font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -311,7 +299,6 @@
 
 .customer-more {
     display: flex;
-    font-family: Inter;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
@@ -340,7 +327,6 @@
 }
 
 .community-update-title {
-    font-family: Inter;
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
@@ -350,7 +336,6 @@
 }
 
 .community-update-description {
-    font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -398,7 +383,6 @@
 }
 
 .community-update-about {
-    font-family: Inter;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
@@ -415,7 +399,6 @@
     height: 44px;
     padding: 8px;
     gap: 8px;
-    font-family: Inter;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;

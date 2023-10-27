@@ -1,20 +1,19 @@
 body {
     width: 1440px;
     height: 3046px;
+    font-family: inter;
 }
 
-.header {
+.flex-space {
     display: flex;
-    padding: 11px 100px;
     justify-content: space-between;
+    align-items: center;
+}
+/*This is head*/
+.header {
+    padding: 11px 100px;
     background: #F5F7FA;
     height: 84px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 8px;
 }
 
 .logo-icon {
@@ -28,46 +27,33 @@ body {
 }
 
 .menu {
-    display: flex;
-    align-items: center;
-    gap: 50px;
     width: 588px;
-}
-
-.menu-item {
-    font-family: Inter;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
     color: #18191F;
 }
 
-.home {
-    flex-direction: column;
-    gap: 40px;
-    display: flex;
-}
-
 .button-head-box {
-    display: flex;
-    align-items: center;
-    gap: 14px;
+    width: 182px;
 }
-
-.button-signup {
-    width: 91px;
-    height: 40px;
-    padding: 10px 20px 10px 20px;
+/*this is global button setting*/
+.button {
+    color: #FFFFFF;
+    background-color: #4CAF4F;
+    padding: 10px 20px;
     border-radius: 6px;
     border: hidden;
     cursor: pointer;
-    width: 95px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+
+.button-signup {
+    width: 92px;
     height: 40px;
-    color: #FFFFFF;
-    background-color: #4CAF4F;
-    align-items: center;
 }
 
 .button-signup:focus {
@@ -78,70 +64,49 @@ body {
 .button-login {
     color: #4CAF4F;
     background: #F5F7FA;
-    padding: 10px 20px;
-    border-radius: 6px;
     border: 1px solid #4CAF4F;
-    cursor: pointer;
     width: auto(77px);
     height: auto(40px);
-    justify-items: center;
 }
-
-
 
 .button-login:focus {
     background: linear-gradient(0deg, #89939E, #89939E);
     border: 2px solid #4D4D4D;
 }
 
-.button-text {
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0px;
-    text-align: center;
+.home {
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 3577px;
 }
 
-.right-arrow {
-    width: 8px;
-    height: 4px;
-    flex-shrink: 0;
-}
 
 .hero-section {
-    display: flex;
     padding: 96px 144px;
-    align-items: center;
-    gap: 104px;
     background: var(--neutral-silver, #F5F7FA);
+    width: 1152px;
 }
 
+
 .frame-one {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
     width: 657px;
     height: 276px;
 }
 
 .frame-one-title {
-    font-family: Inter;
     font-size: 64px;
-    font-style: normal;
     font-weight: 600;
     line-height: 76px;
+    color: var(--neutral-d-grey, #4D4D4D);
 }
 
 .frame-one-content {
-    display: flex;
     flex-direction: column;
-    gap: 32px;
-}
-
-.frame-one-title-one {
-    color: var(--neutral-d-grey, #4D4D4D);
+    align-items: start;
 }
 
 .frame-one-title-two {
@@ -150,9 +115,7 @@ body {
 
 .frame-one-typo {
     color: var(--neutral-grey, #717171);
-    font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
 }
@@ -160,29 +123,22 @@ body {
 .frame-one-button {
     padding: 14px 32px 14px 32px;
     border-radius: 4px;
-    color: white;
-    font-family: Inter;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    text-align: center;
-    background-color: #4CAF4F;
-    border: hidden;
     width: 128px;
     height: 52px;
-    cursor: pointer;
 }
 
-.frame-one-button:focus {
+.frame-one-button:focus{
     background-color: #18911c;
-    border: 2px solid #4D4D4D
+    border: 2px solid #4D4D4D;
 }
 
 .frame-one-img {
     width: 391px;
     height: 407px;
     position: relative;
-
 }
 
 .frame-one-dot {
@@ -200,7 +156,6 @@ body {
     border: none;
     display: inline-block;
     transition-duration: 0.4s;
-    cursor: pointer;
     background-color: rgb(138, 174, 149);
     width: 10px;
     height: 10px;
@@ -218,7 +173,6 @@ body {
 .img-pc {
     width: 194px;
     height: 268px;
-    flex-shrink: 0;
     position: absolute;
     top: 51px;
     left: 0px;
@@ -227,7 +181,6 @@ body {
 .img-windows {
     width: 219px;
     height: 286px;
-    flex-shrink: 0;
     position: absolute;
     top: 0px;
     left: 19px;
@@ -236,7 +189,6 @@ body {
 .img-shadow-one {
     width: 95px;
     height: 57px;
-    flex-shrink: 0;
     position: absolute;
     top: 349px;
     left: 106px;
@@ -245,7 +197,6 @@ body {
 .img-human {
     width: 125px;
     height: 257px;
-    flex-shrink: 0;
     position: absolute;
     top: 119px;
     left: 251px;
@@ -254,7 +205,6 @@ body {
 .img-human-shadow {
     width: 109px;
     height: 63px;
-    flex-shrink: 0;
     position: absolute;
     top: 329px;
     left: 281px;
@@ -263,7 +213,6 @@ body {
 .img-bubbles {
     width: 28px;
     height: 35px;
-    flex-shrink: 0;
     position: absolute;
     top: 68px;
     left: 258px;
@@ -272,7 +221,6 @@ body {
 .img-pc-shadow {
     width: 194px;
     height: 112px;
-    flex-shrink: 0;
     position: absolute;
     top: 230px;
 }
@@ -295,14 +243,12 @@ body {
 .clients-head {
     text-align: center;
     font-size: 36px;
-    font-family: inter;
     line-height: 44px;
     color: #4D4D4D;
     font-weight: 600;
 }
 
 .clients-description {
-    font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -375,7 +321,6 @@ body {
 }
 
 .frame-two-title {
-    font-family: Inter;
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;
@@ -383,7 +328,6 @@ body {
 }
 
 .frame-two-description {
-    font-family: Inter;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -394,7 +338,6 @@ body {
 }
 
 .frame-two-national {
-    font-family: Inter;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
