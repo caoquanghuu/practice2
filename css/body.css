@@ -1,23 +1,13 @@
 .body-content {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    justify-content: space-between;
+    height: 2242px;
 }
 
 .unlock {
-    display: flex;
-    justify-content: space-between;
     padding: 0px 144px;
-    align-items: center;
     height: 433px;
-}
-
-.unlock-image {
-    align-items: center;
-}
-
-.unlock-image-item {
-    height: 328.99px;
 }
 
 .unlock-content {

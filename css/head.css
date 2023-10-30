@@ -142,11 +142,9 @@ body {
 }
 
 .frame-one-dot {
-    display: flex;
     position: absolute;
     top: 657px;
     left: 697px;
-    gap: 8px;
     width: 46px;
     height: 10px;
 }
@@ -226,17 +224,11 @@ body {
 }
 
 .clients {
-    display: flex;
-    align-items: center;
     flex-direction: column;
     height: 190px;
-    padding: 0px 144px;
-    gap: 16px
 }
 
 .our-client {
-    display: flex;
-    gap: 8px;
     flex-direction: column;
 }
 
@@ -252,72 +244,47 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    text-align: center;
     color: #717171
 }
 
 .clients-logo-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 1152px;
     height: 98px;
 }
 
-.clients-logo-section .clients-logo {
-    width: 48px;
-    height: 48px;
-    padding: 9.85px, 0px, 9.15px, 1px;
-}
-
 .community {
-    gap: 26px;
-    display: flex;
     flex-direction: column;
+    height: 416px;
 }
 
-.community-head {
-    display: flex;
-    gap: 8px;
-    flex-direction: column;
-    align-items: center;
-
+.community-head { 
+    flex-direction: column; 
+    height: 120px;
 }
 
 .community-head-title {
     width: 542px;
 }
 
-.frame-two {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 144px;
+.frame-two {   
+    width: 1152px;;
     height: 280px;
-
 }
 
 .frame-two-head {
-    gap: 16px;
-    align-items: center;
-    display: flex;
+    height: 144px;
     flex-direction: column;
-    width: 267px;
+    width: 200px;
 }
 
 .frame-two-part {
-    padding: 24px, 32px, 24px, 32px;
+    padding: 24px 32px 24px 32px;
     border-radius: 8px;
     gap: 8px;
-    display: flex;
     flex-direction: column;
-    width: 299px;
-    align-items: center;
+    width: 235px;
+    height: 232px;
     box-shadow: 0px 2px 4px 0px #ABBED133;
-}
-
-.frame-two-icon {
-    width: 65px;
-    height: 56px
 }
 
 .frame-two-title {
@@ -328,16 +295,6 @@ body {
 }
 
 .frame-two-description {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #717171;
-    width: 251px;
-}
-
-.frame-two-national {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
