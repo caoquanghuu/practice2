@@ -13,47 +13,33 @@
 .unlock-content {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    justify-content: space-between;
     width: 661px;
+    height: 268px;
 }
 
 .unlock-text {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
     width: 601px;
+    height: 184px;
 }
 
-.unlock-title {
+.unlock-title,
+.achievements-title {
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
-    text-align: left;
 }
 
 .unlock-description {
-    font-family: Inter;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    text-align: left;
 }
 
 .unlock-button {
     width: 151px;
     height: 52px;
-    padding: 14px, 32px, 14px, 32px;
     border-radius: 4px;
-    gap: 10px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-    background: #4CAF4F;
-    border: none;
-    color: white;
-    cursor: pointer;
 }
 
 .unlock-button:focus {
@@ -63,75 +49,57 @@
 
 .achievements {
     height: 288px;
-    padding: 0px 144px;
-    justify-content: space-between;
+    background: #F5F7FA;
     display: flex;
     align-items: center;
-    background: #F5F7FA;
+    justify-content: space-evenly;
 }
 
 .achievements-heading {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    justify-content: space-between;
     width: 540px;
     height: 120px;
-}
-
-.achievements-title {
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 44px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #4D4d4d;
-    width: 408px;
+    align-items: flex-start;
 }
 
 .achievements-title-two {
     color: #4CAF4F;
 }
 
-.achievements-description {
+.achievements-description,
+.achievements-name {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
     color: #18191f;
 }
 
 .couts {
     display: flex;
-    flex-direction: column;
-    gap: 40px;
-    width: 540px;
-}
-
-.row-one {
-    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    width: 540px;
+    height: 160px;
+    align-items: center;
 }
 
 .members {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+    justify-content: space-between;
     width: 255px;
     height: 60px;
 }
 
-.couts-detail {
+.counts-detail {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    width: 191px;
+    height: 60px;
 }
 
-.achievements-icon {
-    width: 48px;
-    height: 48px;
-    padding: 8.24px, 0.47px, 8.65px, 0.75px;
-}
 
 .number {
     font-size: 28px;
@@ -140,12 +108,7 @@
     text-align: left;
 }
 
-.achievements-name {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-}
+
 
 .calender {
     display: flex;

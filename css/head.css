@@ -56,7 +56,7 @@ body {
     height: 40px;
 }
 
-.button-signup:focus {
+.button-signup:focus{
     background-color: #18911c;
     border: 2px solid #4D4D4D;
 }
