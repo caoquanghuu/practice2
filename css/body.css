@@ -24,16 +24,17 @@
 }
 
 .unlock-title,
-.achievements-title {
+.achievements-title, .calender-title {
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
 }
 
-.unlock-description {
+.unlock-description, .calender-description {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+    color: #717171;
 }
 
 .unlock-button {
@@ -47,7 +48,7 @@
     border: 2px solid #4D4D4D;
 }
 
-.achievements {
+.achievements, .calender, .customer {
     height: 288px;
     background: #F5F7FA;
     display: flex;
@@ -108,25 +109,16 @@
     text-align: left;
 }
 
-
-
-.calender {
-    display: flex;
+.calender {    
     height: 433px;
-    align-items: center;
-    padding: 0px 144px 0px 144px;
-    justify-content: space-between;
+    background: none;
 }
 
-.calender-image {
-    width: 441px;
-    height: 433px;
-}
-
-.calender-content {
+.calender-content, .customer-content, .customer-author {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    justify-content: space-between;
+    height: 308px;
     width: 661px;
 }
 
@@ -136,37 +128,16 @@
     display: flex;
     flex-direction: column;
 }
-
+/** attribute set same at unlock title attribute **/
 .calender-title {
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 44px;
-    text-align: left;
     color: #4D4D4D;
 }
 
-.calender-description {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: left;
-    color: #717171;
-}
+
 
 .calender-button {
     width: 151px;
     height: 52px;
-    padding: 14px, 32px, 14px, 32px;
-    border-radius: 4px;
-    gap: 10px;
-    background-color: #4CAF4F;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
-    border: none;
-    cursor: pointer;
 }
 
 .calender-button:focus {
@@ -175,31 +146,20 @@
 }
 
 .customer {
-    display: flex;
-    padding: 32px 144px 32px 144px;
-    gap: 78px;
-    align-items: center;
-    background: #F5F7FA;
-
-}
-
-.customer-image {
-    width: 326px;
-    height: 326px;
-    border-radius: 8px;
+    height: 390px;
 }
 
 .customer-content {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+    height: 324px;
     width: 748px;
 }
 
 .customer-text {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    justify-content: space-between;
+    width: 748px;
+    height: 244px;
 }
 
 .customer-description {
@@ -211,12 +171,10 @@
 }
 
 .customer-author {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+    height: 60px;
 }
 
-.author-name {
+.author-name, .customer-more {
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
@@ -233,37 +191,18 @@
     color: #89939E;
 }
 
-.customer-logo {
+.customer-logo, .customer-more, .customer-logo-head {
     display: flex;
-    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .customer-logo-head {
-    display: flex;
-    align-items: center;
-    gap: 41px;
-}
-
-.customer-icon {
-    width: 48px;
-    height: 48px;
-    border-radius: 8px;
+    width: 493px;
 }
 
 .customer-more {
-    display: flex;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 28px;
-    text-align: left;
-    align-items: center;
-    gap: 8px;
-    color: #4CAF4F;
-}
-
-.customer-more-icon {
-    width: 24px;
-    height: 24px;
+    width: 223px;
 }
 
 .community-update {
