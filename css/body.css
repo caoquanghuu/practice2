@@ -5,9 +5,20 @@
     height: 2242px;
 }
 
+.unlock, .achievements,
+.calender,
+.customer {
+    height: 288px;
+    background: #F5F7FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1440px;
+}
+
 .unlock {
-    padding: 0px 144px;
-    height: 433px;
+   height: 433px;  
+   background: none;
 }
 
 .unlock-content {
@@ -24,13 +35,17 @@
 }
 
 .unlock-title,
-.achievements-title, .calender-title {
+.achievements-title,
+.calender-title,
+.community-update-title {
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
+    color: #4D4D4D;
 }
 
-.unlock-description, .calender-description {
+.unlock-description,
+.calender-description {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -48,13 +63,7 @@
     border: 2px solid #4D4D4D;
 }
 
-.achievements, .calender, .customer {
-    height: 288px;
-    background: #F5F7FA;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+
 
 .achievements-heading {
     display: flex;
@@ -101,7 +110,6 @@
     height: 60px;
 }
 
-
 .number {
     font-size: 28px;
     font-weight: 700;
@@ -109,12 +117,14 @@
     text-align: left;
 }
 
-.calender {    
+.calender {
     height: 433px;
     background: none;
 }
 
-.calender-content, .customer-content, .customer-author {
+.calender-content,
+.customer-content,
+.customer-author {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -128,12 +138,11 @@
     display: flex;
     flex-direction: column;
 }
+
 /** attribute set same at unlock title attribute **/
 .calender-title {
     color: #4D4D4D;
 }
-
-
 
 .calender-button {
     width: 151px;
@@ -162,7 +171,8 @@
     height: 244px;
 }
 
-.customer-description {
+.customer-description,
+.community-update-description {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -174,7 +184,8 @@
     height: 60px;
 }
 
-.author-name, .customer-more {
+.author-name,
+.customer-more {
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
@@ -191,7 +202,9 @@
     color: #89939E;
 }
 
-.customer-logo, .customer-more, .customer-logo-head {
+.customer-logo,
+.customer-more,
+.customer-logo-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -205,44 +218,38 @@
     width: 223px;
 }
 
-.community-update {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
+.community-update,
 .community-update-head {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    gap: 8px;
 }
 
-.community-update-title {
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 44px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #4D4D4D;
+.community-update {
+    height: 506px;
+}
+
+.community-update-head {
+    height: 124px;
+    width: 1110px;
 }
 
 .community-update-description {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    color: #717171;
     width: 628px;
-    display: flex;
-    align-items: center;
-
+    text-align: center;
 }
 
 .community-update-content {
-    padding: 0px 144px 0px 144px;
     display: flex;
     justify-content: space-between;
+    height: 366px;
+    width: 1152px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
 }
 
 .community-update-content-one {
@@ -252,34 +259,23 @@
     position: relative;
 }
 
-.community-update-image {
-    width: 368px;
-    height: 286px;
-    border-radius: 8px;
-}
-
 .community-update-text {
-    width: 317px;
-    height: 145px;
+    width: 285px;
+    height: 144px;
     padding: 16px;
     border-radius: 8px;
-    gap: 16px;
-    background: #F5F7FA;
-    box-shadow: 0px 8px 16px 0px #ABBED166;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    background: #F5F7FA;
+    box-shadow: 0px 8px 16px 0px #ABBED166;
     position: absolute;
     bottom: 0px;
-    left: 10px;
+    left: 20px;
 }
 
 .community-update-about {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: center;
     color: #717171;
     width: 285px;
     height: 84px;
@@ -287,16 +283,9 @@
 
 .community-update-read-more {
     display: flex;
-    width: 285px;
+    justify-content: space-between;
+    width: 131px;
     height: 44px;
-    padding: 8px;
-    gap: 8px;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
     color: #4CAF4F;
     align-items: center;
-    justify-content: center;
 }

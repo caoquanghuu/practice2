@@ -9,8 +9,9 @@
 .footer-text {
     display: flex;
     flex-direction: column;
-    padding: 32px 0px;
-    gap: 32px;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 1440px;
     align-items: center;
     background-color: #F5F7FA;
 }
@@ -28,16 +29,11 @@
 }
 
 .footer-button {
-    width: auto(178px);
-    height: 52px;
-    padding: 14px 32px 14px 32px;
-    border-radius: 4px;
-    gap: 8px;
-    background-color: #4CAF4F;
-    border: hidden;
     display: flex;
     align-items: center;
-    cursor: pointer;
+    justify-content: space-evenly;
+    width: 178px;
+    height: 52px;
 }
 
 .footer-button:focus {
@@ -45,51 +41,34 @@
     border: 2px solid #4D4D4D;
 }
 
-.footer-button-text {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: white;
-}
-
-.footer-button-right-arrow {
-    width: 16px;
-    height: 16px;
-}
-
 .footer-big {
-    width: 1110px;
-    height: 200px;
-    padding: 64px 165px 64px 165px;
-    gap: 125px;
+    width: 1440px;
+    height: 328px;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background: #263238;
 }
 
-.company-info {
+.company-info, .col-one, .col-two, .copyright, .col-one-link-group {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company-info{
     width: 350px;
     height: 189px;
-    gap: 40px;
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-logo-icon {
-    width: 43px;
-    height: 29px;
-}
-
-.footer-logo-nexcent {
-    width: 137px;
-    height: 25px;
+    align-items: flex-start;
 }
 
 .copyright {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+    height: 48px;
+    align-items: start;
+}
+
+.copyright, .col-one-link{
     text-align: left;
     font-size: 14px;
     font-weight: 400;
@@ -100,12 +79,8 @@
 
 .social-links {
     display: flex;
-    gap: 16px;
+    justify-content: space-between;
     width: 176px;
-}
-
-.social-links-icon {
-    size: 32px 32px;
 }
 
 .links {
@@ -117,9 +92,7 @@
 
 .col-one {
     width: 160px;
-    gap: 24px;
-    display: flex;
-    flex-direction: column;
+    align-items: flex-start;
 }
 
 .col-one-head {
@@ -127,32 +100,21 @@
     font-weight: 600;
     line-height: 28px;
     letter-spacing: 0em;
-    text-align: left;
+    align-items: flex-start;
     color: white;
 }
 
-.col-one-link {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #F5F7FA;
-}
 
 .col-one-link-group {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+   height: 148px;
+   align-items: start;
 }
 
 .col-two {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
     width: 255px;
     height: 92px;
     position: relative;
+    align-items: flex-start;
 }
 
 .email-input {

@@ -11,7 +11,7 @@ body {
 }
 /*This is head*/
 .header {
-    padding: 11px 100px;
+    justify-content: space-evenly;
     background: #F5F7FA;
     height: 84px;
 }
@@ -45,9 +45,9 @@ body {
     border-radius: 6px;
     border: hidden;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 24px;
     letter-spacing: 0px;
 }
 
@@ -84,9 +84,10 @@ body {
 
 
 .hero-section {
-    padding: 96px 144px;
+    justify-content: space-evenly;
     background: var(--neutral-silver, #F5F7FA);
-    width: 1152px;
+    width: 1440px;
+    height: 599px;
 }
 
 
