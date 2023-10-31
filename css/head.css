@@ -3,12 +3,14 @@ body {
     height: 3046px;
     font-family: inter;
 }
+
 /*This use for there flex section*/
 .flex-space {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 /*This is head*/
 .header {
     justify-content: space-evenly;
@@ -35,9 +37,10 @@ body {
     color: #18191F;
 }
 
-.header-button{
+.header-button {
     width: 182px;
 }
+
 /*this is global button setting*/
 .button {
     color: #FFFFFF;
@@ -57,7 +60,7 @@ body {
     height: 40px;
 }
 
-.button-signup:focus{
+.button-signup:focus {
     background-color: #18911c;
     border: 2px solid #4D4D4D;
 }
@@ -132,7 +135,7 @@ body {
     height: 52px;
 }
 
-.frame-one-button:focus{
+.frame-one-button:focus {
     background-color: #18911c;
     border: 2px solid #4D4D4D;
 }
@@ -234,7 +237,8 @@ body {
     flex-direction: column;
 }
 
-.clients-title, .community-head-title {
+.clients-title,
+.community-title {
     text-align: center;
     font-size: 36px;
     line-height: 44px;
@@ -242,7 +246,8 @@ body {
     font-weight: 600;
 }
 
-.clients-description, .community-description {
+.clients-description,
+.community-description {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -254,7 +259,11 @@ body {
     height: 98px;
 }
 
-.community, .community-head {
+.community,
+.community-head,
+.community-content,
+.community-part,
+.part-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -262,43 +271,43 @@ body {
     height: 416px;
 }
 
-.community-head { 
+.community-head {
     height: 120px;
 }
 
-.community-head-title {
+.community-title {
     width: 542px;
 }
 
-.frame-two {   
-    width: 1152px;;
+.community-content {
+    width: 1152px;
     height: 280px;
+    flex-direction: row;
 }
 
-.frame-two-head {
+.part-head {
     height: 144px;
-    flex-direction: column;
     width: 200px;
 }
 
-.frame-two-part {
+.community-part {
     padding: 24px 32px 24px 32px;
     border-radius: 8px;
-    gap: 8px;
-    flex-direction: column;
     width: 235px;
     height: 232px;
     box-shadow: 0px 2px 4px 0px #ABBED133;
 }
 
-.frame-two-title {
+.part-title {
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;
+    letter-spacing: 0em;
     text-align: center;
+    color: #4D4D4D;
 }
 
-.frame-two-description {
+.part-description {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
