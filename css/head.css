@@ -84,7 +84,7 @@ body {
 }
 
 
-.hero-section {
+.introduce {
     justify-content: space-evenly;
     background: var(--neutral-silver, #F5F7FA);
     width: 1440px;
@@ -92,21 +92,21 @@ body {
 }
 
 
-.frame-one {
+.introduce-content {
     flex-direction: column;
     align-items: flex-start;
     width: 657px;
     height: 276px;
 }
 
-.frame-one-title {
+.introduce-title {
     font-size: 64px;
     font-weight: 600;
     line-height: 76px;
     color: var(--neutral-d-grey, #4D4D4D);
 }
 
-.frame-one-content {
+.introduce-text {
     flex-direction: column;
     align-items: start;
 }
@@ -115,14 +115,14 @@ body {
     color: var(--brand-primary, #4CAF4F);
 }
 
-.frame-one-typo {
+.introduce-description {
     color: var(--neutral-grey, #717171);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.frame-one-button {
+.introduce-button {
     padding: 14px 32px 14px 32px;
     border-radius: 4px;
     font-size: 16px;
@@ -137,7 +137,7 @@ body {
     border: 2px solid #4D4D4D;
 }
 
-.frame-one-img {
+.introduce-image {
     width: 391px;
     height: 407px;
     position: relative;
