@@ -60,11 +60,6 @@ body {
     height: 40px;
 }
 
-.button-signup:focus {
-    background-color: #18911c;
-    border: 2px solid #4D4D4D;
-}
-
 .button-login {
     color: #4CAF4F;
     background: #F5F7FA;
@@ -133,11 +128,6 @@ body {
     line-height: 24px;
     width: 128px;
     height: 52px;
-}
-
-.frame-one-button:focus {
-    background-color: #18911c;
-    border: 2px solid #4D4D4D;
 }
 
 .introduce-image {

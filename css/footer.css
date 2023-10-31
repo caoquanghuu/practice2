@@ -35,10 +35,7 @@
     height: 52px;
 }
 
-.footer-button:focus {
-    background-color: #18911c;
-    border: 2px solid #4D4D4D;
-}
+
 
 .footer-content {
     width: 1440px;
@@ -92,7 +89,8 @@
     height: 200px;
 }
 
-.company, .support {
+.company,
+.support {
     width: 160px;
     height: 200px;
     align-items: flex-start;
