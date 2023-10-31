@@ -37,7 +37,7 @@
 .unlock-title,
 .achievements-title,
 .calender-title,
-.community-update-title {
+.update-title {
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
@@ -96,7 +96,7 @@
     align-items: center;
 }
 
-.members {
+.members, .clubs, .event-bookings, .payments {
     justify-content: space-between;
     width: 255px;
     height: 60px;
@@ -172,7 +172,7 @@
 }
 
 .customer-description,
-.community-update-description {
+.update-description {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -219,7 +219,7 @@
 }
 
 .community-update,
-.community-update-head {
+.update-head {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -235,12 +235,12 @@
     width: 1110px;
 }
 
-.community-update-description {
+.update-description {
     width: 628px;
     text-align: center;
 }
 
-.community-update-content {
+.update-content {
     display: flex;
     justify-content: space-between;
     height: 366px;
@@ -252,14 +252,14 @@
     text-align: center;
 }
 
-.community-update-content-one {
+.update-one, .update-two, .update-three {
     display: grid;
     width: 368px;
     height: 366px;
     position: relative;
 }
 
-.community-update-text {
+.update-about {
     width: 285px;
     height: 144px;
     padding: 16px;
@@ -275,13 +275,13 @@
     left: 20px;
 }
 
-.community-update-about {
+.about-content {
     color: #717171;
     width: 285px;
     height: 84px;
 }
 
-.community-update-read-more {
+.update-more {
     display: flex;
     justify-content: space-between;
     width: 131px;
