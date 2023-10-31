@@ -1,23 +1,22 @@
-.footer {
+.footer,
+.footer-head,
+.footer-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 1440px;
     height: 300px;
+    justify-content: space-evenly;
 }
 
-.footer-text {
-    display: flex;
-    flex-direction: column;
+.footer-head {
     justify-content: space-evenly;
     height: 300px;
     width: 1440px;
-    align-items: center;
     background-color: #F5F7FA;
 }
 
 .footer-title {
-
     font-size: 64px;
     font-weight: 600;
     line-height: 76px;
@@ -41,23 +40,27 @@
     border: 2px solid #4D4D4D;
 }
 
-.footer-big {
+.footer-content {
     width: 1440px;
     height: 328px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     background: #263238;
+    flex-direction: row;
 }
 
-.company-info, .col-one, .col-two, .copyright, .col-one-link-group {
+.company-info,
+.company,
+.support,
+.stay-up,
+.copyright,
+.company-links,
+.support-links {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
 }
 
-.company-info{
+.company-info {
     width: 350px;
     height: 189px;
     align-items: flex-start;
@@ -68,7 +71,7 @@
     align-items: start;
 }
 
-.copyright, .col-one-link{
+.copyright {
     text-align: left;
     font-size: 14px;
     font-weight: 400;
@@ -77,25 +80,27 @@
     color: #F5F7FA;
 }
 
-.social-links {
+.social-links,
+.links {
     display: flex;
     justify-content: space-between;
     width: 176px;
 }
 
 .links {
-    display: flex;
     width: 635px;
     height: 200px;
-    gap: 30px;
 }
 
-.col-one {
+.company, .support {
     width: 160px;
+    height: 200px;
     align-items: flex-start;
 }
 
-.col-one-head {
+.company-title,
+.support-title,
+.stayup-title {
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
@@ -105,12 +110,19 @@
 }
 
 
-.col-one-link-group {
-   height: 148px;
-   align-items: start;
+.company-links,
+.support-links {
+    height: 148px;
+    align-items: start;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #F5F7FA;
 }
 
-.col-two {
+.stay-up {
     width: 255px;
     height: 92px;
     position: relative;
