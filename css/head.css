@@ -84,7 +84,7 @@ body {
 
 .introduce {
     justify-content: space-evenly;
-    background: var(--neutral-silver, #F5F7FA);
+    background: #F5F7FA;
     width: 1440px;
     height: 599px;
 }
@@ -161,6 +161,7 @@ body {
 
 .dot-button:focus {
     background-color: #4CAF50;
+    width: 20px;
 }
 
 .img-pc {

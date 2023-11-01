@@ -283,7 +283,7 @@
     color: #4CAF4F;
     align-items: center;
 }
-
+/*global button focus effect*/
 .button-signup:focus, .introduce-button:focus, .unlock-button:focus, .calender-button:focus, .footer-button:focus{
     background-color: #18911c;
     border: 2px solid #4D4D4D;
