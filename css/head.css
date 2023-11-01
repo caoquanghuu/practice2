@@ -4,6 +4,32 @@ body {
     font-family: inter;
 }
 
+:root{
+    --neutral-black: #263238;
+    --neutral-d-grey: #4D4D4D;
+    --neutral-grey: #717171;
+    --neutral-l-grey: #89939E;
+    --neutral-grey-blue: #ABBED1;
+    --neutral-silver: #F5F7FA;
+    --neutral-white: #FFF;
+    --brand-primary: #4CAF4F;
+    --brand-secondary: #263238;
+    --brand-info: #2194F3;
+    --shade-s-1: #43A046;
+    --shade-s-2: #388E3B;
+    --shade-s-3: #237D31;
+    --shade-s-4: #1B5E1F;
+    --shade-s-5: #103E13;
+    --tint-t-1: #66BB69;
+    --tint-t-2: #81C784;
+    --tint-t-3: #A5D6A7;
+    --tint-t-4: #C8E6C9;
+    --tint-t-5: #E8F5E9;
+    --action-warning: #FBC02D;
+    --action-error: #E53835;
+    --action-success: #2E7D31;
+}
+
 /*This use for there flex section*/
 .flex-space {
     display: flex;
@@ -14,7 +40,7 @@ body {
 /*This is head*/
 .header {
     justify-content: space-evenly;
-    background: #F5F7FA;
+    background: var(--neutral-silver, #F5F7FA);
     height: 84px;
     text-align: center;
 }
@@ -34,7 +60,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    color: #18191F;
+    color: var(--text-gray-900, #18191F);
 }
 
 .header-button {
@@ -48,8 +74,8 @@ a {
 
 /*this is global button setting*/
 .button {
-    color: #FFFFFF;
-    background-color: #4CAF4F;
+    color: var(--default-white, #FFF);
+    background-color: var(--brand-primary, #4CAF4F);
     padding: 10px 20px;
     border-radius: 6px;
     border: hidden;
@@ -158,7 +184,6 @@ a {
 }
 
 .dot-button {
-    background-color: #4CAF50;
     border: none;
     display: inline-block;
     transition-duration: 0.4s;
