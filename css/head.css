@@ -76,7 +76,6 @@ a {
 .button {
     color: var(--default-white, #FFF);
     background-color: var(--brand-primary, #4CAF4F);
-    padding: 10px 20px;
     border-radius: 6px;
     border: hidden;
     cursor: pointer;
@@ -97,6 +96,7 @@ a {
     border: 1px solid #4CAF4F;
     width: 77px;
     height: 40px;
+    align-items: center;
 }
 
 .button-login:focus {
