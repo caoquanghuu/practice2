@@ -91,8 +91,8 @@ a {
 }
 
 .button-login {
-    color: #4CAF4F;
-    background: #F5F7FA;
+    color:var(--brand-primary, #4CAF4F);
+    background: var(--neutral-silver, #F5F7FA);
     border: 1px solid #4CAF4F;
     width: 77px;
     height: 40px;
@@ -123,7 +123,7 @@ a {
 
 .introduce {
     justify-content: space-evenly;
-    background: #F5F7FA;
+    background: var(--neutral-silver, #F5F7FA);
     width: 1440px;
     height: 599px;
 }
@@ -198,7 +198,7 @@ a {
 }
 
 .dot-button:focus {
-    background-color: #4CAF50;
+    background-color: var(--brand-primary, #4CAF4F);
     width: 20px;
 }
 
@@ -271,7 +271,7 @@ a {
     text-align: center;
     font-size: 36px;
     line-height: 44px;
-    color: #4D4D4D;
+    color: var(--neutral-d-grey, #4D4D4D);
     font-weight: 600;
 }
 
@@ -280,7 +280,7 @@ a {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    color: #717171
+    color: var(--neutral-grey, #717171);
 }
 
 .clients-logo {
@@ -333,7 +333,7 @@ a {
     line-height: 36px;
     letter-spacing: 0em;
     text-align: center;
-    color: #4D4D4D;
+    color: var(--neutral-d-grey, #4D4D4D);
 }
 
 .part-description {
@@ -342,6 +342,6 @@ a {
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
-    color: #717171;
+    color: var(--neutral-grey, #717171);
     width: 240px;
 }

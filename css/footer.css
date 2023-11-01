@@ -13,7 +13,7 @@
     justify-content: space-evenly;
     height: 300px;
     width: 1440px;
-    background-color: #F5F7FA;
+    background: var(--neutral-silver, #F5F7FA);
 }
 
 .footer-title {
@@ -22,7 +22,7 @@
     line-height: 76px;
     letter-spacing: 0em;
     text-align: center;
-    color: #263238;
+    color: var(--neutral-black, #263238);
     width: 887px;
     height: 152px;
 }
@@ -40,7 +40,7 @@
 .footer-content {
     width: 1440px;
     height: 328px;
-    background: #263238;
+    background: var(--neutral-black, #263238);
     flex-direction: row;
 }
 
@@ -74,7 +74,7 @@
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0em;
-    color: #F5F7FA;
+    color: var(--neutral-silver, #F5F7FA);
 }
 
 .social-links,
@@ -104,7 +104,7 @@
     line-height: 28px;
     letter-spacing: 0em;
     align-items: flex-start;
-    color: white;
+    color: var(--neutral-white, #FFF);
 }
 
 .company-links,
@@ -116,7 +116,7 @@
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0em;
-    color: #F5F7FA;
+    color: var(--neutral-silver, #F5F7FA);
 }
 
 .stay-up {
@@ -133,7 +133,8 @@
 }
 
 .email-input-box {
-    background-color: gray;
+    background: var(--default-white, #FFF);
+    opacity: 0.2;
     width: 255px;
     height: 40px;
     border-radius: 8px;
@@ -142,7 +143,7 @@
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0em;
-    color: #D9DBE1;
+    color: var(--text-gray-300, #D9DBE1);
 }
 
 #email-input-title {
@@ -151,7 +152,7 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
-    color: #D9DBE1;
+    color: var(--neutral-white, #FFF);
     position: absolute;
     top: 63px;
     left: 12px;

@@ -10,7 +10,7 @@
 .calender,
 .customer {
     height: 288px;
-    background: #F5F7FA;
+    background: var(--neutral-silver, #F5F7FA);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -42,7 +42,7 @@
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
-    color: #4D4D4D;
+    color: var(--neutral-d-grey, #4D4D4D);
 }
 
 .unlock-description,
@@ -50,7 +50,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    color: #717171;
+    color: var(--neutral-grey, #717171);
 }
 
 .unlock-button {
@@ -69,7 +69,7 @@
 }
 
 .achievements-title-two {
-    color: #4CAF4F;
+    color: var(--brand-primary, #4CAF4F);
 }
 
 .achievements-description,
@@ -78,7 +78,7 @@
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #18191f;
+    color: var(--text-gray-900, #18191F);
 }
 
 .couts {
@@ -138,7 +138,7 @@
 
 /** attribute set same at unlock title attribute **/
 .calender-title {
-    color: #4D4D4D;
+    color: var(--neutral-d-grey, #4D4D4D);
 }
 
 .calender-button {
@@ -169,7 +169,7 @@
     font-weight: 500;
     line-height: 24px;
     text-align: left;
-    color: #717171;
+    color: var(--neutral-grey, #717171);
 }
 
 .customer-author {
@@ -182,7 +182,7 @@
     font-weight: 600;
     line-height: 28px;
     text-align: left;
-    color: #4CAF4F;
+    color: var(--brand-primary, #4CAF4F);
 }
 
 .author-position {
@@ -191,7 +191,7 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    color: #89939E;
+    color: var(--neutral-l-grey, #89939E);
 }
 
 .customer-logo,
@@ -262,7 +262,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: #F5F7FA;
+    background: var(--neutral-silver, #F5F7FA);
     box-shadow: 0px 8px 16px 0px #ABBED166;
     position: absolute;
     bottom: 0px;
@@ -270,7 +270,7 @@
 }
 
 .about-content {
-    color: #717171;
+    color: var(--neutral-grey, #717171);
     width: 285px;
     height: 84px;
 }
@@ -280,11 +280,11 @@
     justify-content: space-between;
     width: 131px;
     height: 44px;
-    color: #4CAF4F;
+    color: var(--brand-primary, #4CAF4F);
     align-items: center;
 }
 /*global button focus effect*/
 .button-signup:focus, .introduce-button:focus, .unlock-button:focus, .calender-button:focus, .footer-button:focus{
-    background-color: #18911c;
-    border: 2px solid #4D4D4D;
+    background: var(--brand-primary, #4CAF4F);
+    border: 2px solid var(--neutral-d-grey, #4D4D4D);
 }
