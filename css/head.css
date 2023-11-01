@@ -55,6 +55,10 @@ body {
     height: 20px;
 }
 
+#page-info{
+    display: none;
+}
+
 .menu {
     width: 588px;
     font-size: 16px;
@@ -127,7 +131,6 @@ a {
     width: 1440px;
     height: 599px;
 }
-
 
 .introduce-content {
     flex-direction: column;
